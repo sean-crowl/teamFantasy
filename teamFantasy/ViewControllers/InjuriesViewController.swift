@@ -45,14 +45,26 @@ class InjuriesViewController: UIViewController {
             switch response.result {
             case .success(let value) :
                 var json = JSON(value)
+                print(json)
+                
+                
+                
+                
+    
+               
+
+    
+                
+                
+            
+            
         
-                guard let injuries = json[Constants.API.ARIKey].array else { print("no"); fatalError() }
-                print(injuries.count)
-                
-                for injurie in injuries {
-                    print("\(injuries.index(of: injurie)! + 1). \(injurie[Constants.API.PlayerNameKey].string!)")
-                }
-                
+//                json[0].ari[y else { print("no"); fatalError() }
+//                
+//                for injurie in injuries {
+//                    print("\(injuries.index(of: injurie)! + 1). \(injurie[Constants.API.PlayerNameKey].string!)")
+//                }
+//                
             case .failure(let error) :
             fatalError(error.localizedDescription)
             

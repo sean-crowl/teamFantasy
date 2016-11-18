@@ -26,7 +26,7 @@ struct Constants {
         static let HomeTeamKey = "homeTeam"
         static let GameTimeKey = "gameTimeET"
         static let TvStationKey = "tvStation"
-        static let InjuriesKey = "Injuries"
+        static let InjuriesKey = "Injuries.ARI:"
         static let PlayerNameKey = "playerName"
         static let Team = "team"
         static let Position = "position"
